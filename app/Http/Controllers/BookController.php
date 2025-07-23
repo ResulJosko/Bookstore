@@ -8,20 +8,17 @@ use App\Http\Controllers\Controller;
 
 class BookController extends Controller
 {
-    public function home()
+    public function index(Request $request)
     {
-        return view('home.index');
+        $query = Book::with(['genre', 'location']);
+
+        if ($request->has('genre')) {
+            $query->where('genre_id', $request->genre);
+        }
+
+        $books = $query->get();
+
+        return view('books.books', compact('books', 'genres'));
     }
 
-    public function index()
-    {
-        $books = Book::with(['genre','location'])->get();
-        return view('books.books', compact('books'));
-    }
-
-    public function show($id)
-    {
-        $book = Book::with([['genre', 'location']])->FindorFail($id);
-        return view('books.book', compact('book'));
-    }
 }
