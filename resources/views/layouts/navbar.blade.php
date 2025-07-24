@@ -12,6 +12,13 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('home.index') }}">Home</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('customers.index') }}">Customers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('orders.index') }}">Orders</a>
+                </li>
+
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="genresDropdown" role="button"

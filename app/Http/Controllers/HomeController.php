@@ -11,7 +11,7 @@ class HomeController extends Controller
     public function index()
     {
         $genres = Genre::all();
-        $books = Book::with(relations: 'genre')->limit(6)->get();
+        $books = Book::with(relations: 'genre')->get();
         return view('home.index', compact('books', 'genres'));
 
     }
