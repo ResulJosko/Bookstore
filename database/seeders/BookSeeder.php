@@ -21,7 +21,7 @@ class BookSeeder extends Seeder
                 'autor' => 'Jojo Moyes',
                 'description' => 'Louisa Clark becomes a caregiver for Will Traynor, a once-active man now in a wheelchair. A moving story about love, dignity, and difficult choices.',
                 'price' => 190,
-                'image' => '1.jpg',
+                'image' => 'img/1.jpg',
                 'stock' => 5,
             ],
             [
@@ -37,7 +37,7 @@ class BookSeeder extends Seeder
                 'autor' => 'Anne Frank',
                 'description' => 'The real diary of Anne Frank, a Jewish girl hiding from the Nazis. A haunting, deeply human portrait of hope under oppression.',
                 'price' => 160,
-                'image' => '3.jpg',
+                'image' => 'img/3.jpg',
                 'stock' => 4,
             ],
             [
@@ -45,7 +45,7 @@ class BookSeeder extends Seeder
                 'autor' => 'Charlotte Brontë',
                 'description' => 'The story of an orphaned girl who overcomes adversity and falls in love with the mysterious Mr. Rochester.',
                 'price' => 180,
-                'image' => '2.jpg',
+                'image' => 'img/2.jpg',
                 'stock' => 6,
             ],
             [
@@ -53,7 +53,7 @@ class BookSeeder extends Seeder
                 'autor' => 'Jeffrey Toobin',
                 'description' => 'A behind-the-scenes look at America’s highest court, its justices, and its role in shaping the country.',
                 'price' => 200,
-                'image' => '3.jpg',
+                'image' => 'img/1.jpg',
                 'stock' => 3,
             ],
             [
@@ -61,7 +61,7 @@ class BookSeeder extends Seeder
                 'autor' => 'Paul Collier',
                 'description' => 'Explores why the poorest countries fail to grow and offers practical solutions to lift them out of poverty.',
                 'price' => 150,
-                'image' => '3.jpg',
+                'image' => 'img/3.jpg',
                 'stock' => 8,
             ],
             [
@@ -69,7 +69,7 @@ class BookSeeder extends Seeder
                 'autor' => 'Robert Kiyosaki',
                 'description' => 'A bestselling classic that contrasts two approaches to money—one rich, one poor—and how to achieve financial independence.',
                 'price' => 190,
-                'image' => '2.jpg',
+                'image' => 'img/2.jpg',
                 'stock' => 10,
             ],
             [
@@ -77,7 +77,7 @@ class BookSeeder extends Seeder
                 'autor' => 'Phil Knight',
                 'description' => 'The founder of Nike shares his journey from selling shoes out of a car trunk to building one of the world’s most iconic brands.',
                 'price' => 210,
-                'image' => '3.jpg',
+                'image' => 'img/3.jpg',
                 'stock' => 5,
             ],
             [
@@ -85,7 +85,7 @@ class BookSeeder extends Seeder
                 'autor' => 'Henry Marsh',
                 'description' => 'A neurosurgeon’s gripping reflections on success, failure, and the fragile nature of life under the knife.',
                 'price' => 200,
-                'image' => 'img/2.jpg',
+                'image' => 'img/1.jpg',
                 'stock' => 4,
             ],
         ];
