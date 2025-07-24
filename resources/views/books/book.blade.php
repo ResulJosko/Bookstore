@@ -20,5 +20,14 @@
     <a href="{{ route('books.index') }}" class="btn btn-secondary mt-3">
         <i class="bi bi-arrow-left"></i> Back to list
     </a>
+    <form action="{{ route('orders.index') }}" method="POST">
+        @csrf
+        <input type="hidden" name="book_id" value="{{ $book->id }}">
+
+        <button type="submit" class="btn btn-primary mt-3">
+            <i class="bi bi-cart-plus"></i> Order This Book
+        </button>
+    </form>
+
 </div>
 @endsection
