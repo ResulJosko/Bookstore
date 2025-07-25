@@ -25,7 +25,7 @@
         <input type="hidden" name="book_id" value="{{ $book->id }}">
 
         <button type="submit" class="btn btn-primary mt-3">
-            <i class="bi bi-cart-plus"></i> Order This Book
+            <i class="bi bi-cart-plus"></i> Order This Boo
         </button>
     </form>
 
